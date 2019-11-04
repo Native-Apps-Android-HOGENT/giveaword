@@ -1,3 +1,4 @@
+
 # phpstorm project files
 .idea
 
@@ -46,3 +47,11 @@ web/robots.txt
 yii
 yii.bat
 .bowerrc
+
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+
